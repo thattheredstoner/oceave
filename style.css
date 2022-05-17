@@ -254,6 +254,22 @@
 		 transform: translate3d(0, 80vmin, 0);
 	}
 }
+.wrap {
+  white-space: nowrap;
+  border-right: 3px solid;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+}
+@keyframes typing {
+  from {
+	   width: 0
+	}
+}
+
+@keyframes blink {
+	50% {
+		border-color: transparent
+	}
+}
  .sun-container {
 	 overflow: hidden;
 	 width: 100%;
