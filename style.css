@@ -31,7 +31,7 @@ body {
 
   .slide2 {
       top: 0%;
-      color: #fff;
+      color: rgb(255, 255, 255);
   }
 
 .ocean1 {
@@ -241,3 +241,27 @@ svg #fish5{
       border-color: transparent
     }
   }
+  .context {
+    position: absolute;
+    z-index: 100;
+    top: 89px;
+  }
+ .highlight {
+	 text-decoration: none;
+	 font-family: sans-serif;
+	 display: inline-block;
+}
+ .highlight {
+	 position: relative;
+}
+ .highlight:after {
+	 display: block;
+	 content: "";
+	 position: absolute;
+	 bottom: 7px;
+	 right: -3px;
+	 left: -3px;
+	 height: 7px;
+	 z-index: -1;
+	 background-color: #1da2d8;
+}

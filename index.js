@@ -5,8 +5,8 @@ $(function(){
 });
 
 // Init Context
-let c = document.querySelector('#wave').getContext('2d')
-let postctx = document.querySelector('#wave').getContext('2d')
+let c = document.createElement('canvas').getContext('2d')
+let postctx = document.querySelector('.slide2').appendChild(document.createElement('canvas')).getContext('2d')
 let canvas = c.canvas
 let vertices = []
 
@@ -16,7 +16,7 @@ let vertexSize = 3
 let oceanWidth = 204
 let oceanHeight = -80
 let gridSize = 32;
-let waveSize = 10;
+let waveSize = 5;
 let perspective = 100;
 
 // Common variables
