@@ -18,6 +18,9 @@ body {
   img {
     margin-top: -200px;  
   }
+  .diver {
+    margin-top: 0px;
+  }
   @media only screen and (min-height: 500px) {
     svg {
       top: 50%;
@@ -245,6 +248,7 @@ svg #fish5{
     position: absolute;
     z-index: 100;
     top: 89px;
+    padding: 20px;
   }
  .highlight {
 	 text-decoration: none;
