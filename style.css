@@ -268,3 +268,9 @@ svg #fish5{
 	 z-index: -1;
 	 background-color: #1da2d8;
 }
+.problem {
+  position: absolute;
+  z-index: 100;
+  top: 50px;
+  font-size: 100px;
+}
