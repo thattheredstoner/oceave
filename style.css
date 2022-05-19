@@ -247,7 +247,7 @@ svg #fish5{
   .context {
     position: absolute;
     z-index: 100;
-    top: 89px;
+    top: 100px;
   }
  .highlight {
 	 text-decoration: none;
